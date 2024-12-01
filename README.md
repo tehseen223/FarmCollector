@@ -1,3 +1,5 @@
+please extract the zip file on your local.. as GIT on my local is not working correctly. So i had to upload the project as a ZIP folder on GITHUB
+
 1.  run the springbootapplication i.e. FarmCollectorApplication class or use mvn spring-boot:run
 .
 
