@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Crop Report</title>
+</head>
+<body>
+<h1>Crop Report for ${cropType} - ${season}</h1>
+<p>Expected Total Product: <span th:text="${expectedProduct}"></span> tons</p>
+<p>Actual Total Product: <span th:text="${actualProduct}"></span> tons</p>
+</body>
+</html>

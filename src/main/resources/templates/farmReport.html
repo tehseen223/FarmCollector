@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Farm Report</title>
+</head>
+<body>
+<h1>Farm Report for ${farmName} - ${season}</h1>
+<table border="1">
+    <thead>
+    <tr>
+        <th>Crop Type</th>
+        <th>Expected Product (tons)</th>
+        <th>Actual Product (tons)</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="crop : ${crops}">
+        <td th:text="${crop.cropType}"></td>
+        <td th:text="${crop.expectedProduct}"></td>
+        <td th:text="${crop.actualProduct}"></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
